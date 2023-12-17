@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link to="/">Contact us</Link>
       </li>
       <li>
-        <Link to="/">Login</Link>
+        <Link to="/" className="bg-yellow-500">Login</Link>
       </li>
     </>
   );
@@ -27,6 +27,7 @@ const Navbar = () => {
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
+              x
             </label>
             <ul
               tabIndex={0}
