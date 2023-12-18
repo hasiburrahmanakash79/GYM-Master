@@ -1,4 +1,5 @@
 import Calculator from "../Calculator/Calculator";
+import FounderProfile from "../FounderProfile/FounderProfile";
 import Hero from "../Hero/Hero";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Hero/>
             <Calculator/>
+            <FounderProfile/>
         </div>
     );
 };
