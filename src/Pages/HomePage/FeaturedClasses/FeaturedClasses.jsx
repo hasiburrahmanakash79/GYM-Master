@@ -1,5 +1,7 @@
 const FeaturedClasses = () => {
   return (
+    <div className="bg-[url('https://static.vecteezy.com/system/resources/previews/022/653/988/original/treadmill-in-modern-gym-toned-image-3d-rendering-generative-ai-free-photo.jpg')] h-[100vh] bg-cover bg-fixed" >
+      
     <div className="card w-96 bg-base-100 shadow-xl">
       <div className="card-body text-center">
         <h2 className="text-2xl font-bold">Cross fit</h2>
@@ -13,6 +15,7 @@ const FeaturedClasses = () => {
         />
         
       </figure>
+    </div>
     </div>
   );
 };
