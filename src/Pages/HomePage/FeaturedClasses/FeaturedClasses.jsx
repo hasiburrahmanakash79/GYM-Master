@@ -24,7 +24,7 @@ const FeaturedClasses = () => {
           </div>
           <div className="card  bg-base-100 shadow-xl">
             <div className="card-body text-center">
-              <h2 className="text-2xl font-bold">Cross fit</h2>
+              <h2 className="text-2xl font-bold">Yoga</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
             </div>
 

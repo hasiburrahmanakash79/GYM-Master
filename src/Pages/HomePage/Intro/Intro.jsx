@@ -1,6 +1,6 @@
 const Intro = () => {
   return (
-    <div className="bg-[url('https://i.ibb.co/P9NCNmC/gym-workout-plan-for-gaining-muscle-header.jpg')] h-[75vh] bg-cover bg-fixed">
+    <div className="bg-[url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] h-[75vh] bg-cover bg-fixed">
       <div className=" bg-black h-[75vh] flex items-center bg-opacity-70 px-10 text-white">
         <div className="container mx-auto md:flex items-center justify-around gap-10">
           <div className="md:w-1/2  p-5">
