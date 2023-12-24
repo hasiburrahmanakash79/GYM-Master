@@ -4,6 +4,7 @@ import Main from "../Layouts/Main";
 import About from "../Pages/About/About";
 import Classes from "../Pages/ClassPage/Classes";
 import Blog from "../Pages/Blog/Blog";
+import Contact from "../Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -28,8 +29,8 @@ const router = createBrowserRouter([
           element: <Blog/>
         },
         {
-          path: "/class",
-          element: <Classes/>
+          path: "/contact",
+          element: <Contact/>
         }
     ]
   },
