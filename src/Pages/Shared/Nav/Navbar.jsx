@@ -3,21 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const NavItems = (
     <>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/about">About</Link>
-      </li>
-      <li>
-        <Link to="/page">Page</Link>
-      </li>
-      <li>
-        <Link to="/class">Class</Link>
-      </li>
-      <li>
-        <Link to="/blog">Blog</Link>
-      </li>
+     
       <li>
         <Link to="/contact">Contact us</Link>
       </li>
