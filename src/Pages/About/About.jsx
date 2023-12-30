@@ -3,7 +3,7 @@ import SectionTitle from "../../Hooks/SectionTitle";
 const About = () => {
     return (
         <div>
-            <SectionTitle subTitle={"Hook"}></SectionTitle>
+            <SectionTitle subTitle={"Hook"} title={"About"}></SectionTitle>
             <h1>About</h1>
         </div>
     );
