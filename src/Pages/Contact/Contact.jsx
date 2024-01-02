@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div>
       <SectionTitle subTitle={"GYM Master"} title={"Contact"}></SectionTitle>
-      <div className="container mx-auto">
+      <div className="container mx-auto my-10">
         <div className="md:grid grid-cols-2 gap-10">
           <div className="">
             <h1 className="text-4xl font-bold">
@@ -18,7 +18,7 @@ const Contact = () => {
               voluptates quae maxime repudiandae ipsum est quaerat, ullam
               recusandae.
             </p>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 gap-10">
                 <div>
                     <h1 className="text-2xl font-bold">New York City, USA</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquam placeat blanditiis dignissimos.</p>
