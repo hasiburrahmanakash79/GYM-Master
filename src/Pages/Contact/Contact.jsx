@@ -29,15 +29,7 @@ const Contact = () => {
                     <p>Mon to Fri: 7:30 am — 1:00 am</p>
                     <p>Mon to Fri: 7:30 am — 1:00 am</p>
                 </div>
-                <div>
-                    <h1 className="text-2xl font-bold pb-3">Information</h1>
-                    <p>+800-123-4567</p>
-                    <p>gymaster@yourname.com</p>
-                </div>
-                <div>
-                    <h1 className="text-2xl font-bold pb-3">Follow Us On</h1>
-                    <p> Facebook,  instagram,  X,  linkedin</p>
-                </div>
+                
             </div>
           </div>
           <div className="">
