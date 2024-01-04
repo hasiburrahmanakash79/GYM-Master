@@ -5,7 +5,14 @@ const PhotoGallery = () => {
         <div>
            <SectionTitle subTitle={"GYM Master"} title={"Galleries"}></SectionTitle> 
             <div>
-                
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
             </div>
         </div>
     );
