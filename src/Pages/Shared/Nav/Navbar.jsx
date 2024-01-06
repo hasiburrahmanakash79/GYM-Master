@@ -32,9 +32,7 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              x
-            </label>
+            
             <ul
               tabIndex={0}
               className="menu menu-compact dropdown-content mt-3 p-2 shadow text-black bg-base-100 rounded-box w-52"
