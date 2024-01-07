@@ -35,7 +35,12 @@ const Navbar = () => {
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               x
             </label>
-            
+            <ul
+              tabIndex={0}
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow text-black bg-base-100 rounded-box w-52"
+            >
+              {NavItems}
+            </ul>
           </div>
           <a className="btn btn-ghost normal-case text-xl">GYM Master</a>
         </div>
