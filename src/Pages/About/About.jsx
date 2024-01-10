@@ -1,14 +1,16 @@
 import SectionTitle from "../../Hooks/SectionTitle";
 
 const About = () => {
-    return (
+  return (
+    <div>
+      <SectionTitle subTitle={"GYM Master"} title={"About"}></SectionTitle>
+      <div className="container mx-auto">
         <div>
-            <SectionTitle subTitle={"GYM Master"} title={"About"}></SectionTitle>
-            <div className="container mx-auto">
-
-            </div>
+            
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default About;
