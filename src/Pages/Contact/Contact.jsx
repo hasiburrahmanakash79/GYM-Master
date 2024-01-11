@@ -41,14 +41,38 @@ const Contact = () => {
             </div>
           </div>
           <div className="bg-slate-100 ">
-            <label className="form-control w-full max-w-xs">
-              <span className="label-text">What is your name?</span>
-              <input
-                type="text"
-                placeholder="Type here"
-                className="input input-bordered w-full"
-              />
-            </label>
+            <div className="mx-auto p-10">
+              <div>
+                <label className="form-control w-full">
+                  <span className="label-text">What is your name?</span>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input input-bordered w-full"
+                  />
+                </label>
+              </div>
+              <div>
+                <label className="form-control w-full">
+                  <span className="label-text">What is your name?</span>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input input-bordered w-full"
+                  />
+                </label>
+              </div>
+              <div>
+                <label className="form-control w-full">
+                  <span className="label-text">What is your name?</span>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input input-bordered w-full"
+                  />
+                </label>
+              </div>
+            </div>
           </div>
         </div>
       </div>
