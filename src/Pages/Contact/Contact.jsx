@@ -65,11 +65,15 @@ const Contact = () => {
               <div>
                 <label className="form-control w-full">
                   <span className="label-text">What is your name?</span>
-                  <input
-                    type="text"
-                    placeholder="Type here"
-                    className="input input-bordered w-full"
-                  />
+                  <select className="select select-bordered w-full max-w-xs">
+                    <option disabled selected>
+                      Who shot first?
+                    </option>
+                    <option>Han Solo</option>
+                    <option>Greedo</option>
+                    <option>Greedo</option>
+                    <option>Greedo</option>
+                  </select>
                 </label>
               </div>
             </div>
