@@ -84,6 +84,7 @@ const Contact = () => {
                   <textarea className="textarea textarea-bordered" placeholder="Message"></textarea>
                 </label>
               </div>
+              <button className="btn btn-primary">Submit</button>
             </div>
           </div>
         </div>
