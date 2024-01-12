@@ -76,6 +76,12 @@ const Contact = () => {
                   </select>
                 </label>
               </div>
+              <div>
+                <label className="form-control w-full">
+                  <span className="label-text">What is your name?</span>
+                  <textarea className="textarea textarea-bordered" placeholder="Message"></textarea>
+                </label>
+              </div>
             </div>
           </div>
         </div>
