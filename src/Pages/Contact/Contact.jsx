@@ -41,10 +41,10 @@ const Contact = () => {
             </div>
           </div>
           <div className="bg-slate-100 ">
-            <div className="mx-auto p-10">
+            <div className="mx-auto p-10 space-y-5">
               <div>
                 <label className="form-control w-full">
-                  <span className="label-text">What is your name?</span>
+                  <span className="label-text">Full Name</span>
                   <input
                     type="text"
                     placeholder="Type here"
@@ -54,9 +54,9 @@ const Contact = () => {
               </div>
               <div>
                 <label className="form-control w-full">
-                  <span className="label-text">What is your name?</span>
+                  <span className="label-text">Email</span>
                   <input
-                    type="text"
+                    type="email"
                     placeholder="Type here"
                     className="input input-bordered w-full"
                   />
@@ -64,21 +64,23 @@ const Contact = () => {
               </div>
               <div>
                 <label className="form-control w-full">
-                  <span className="label-text">What is your name?</span>
-                  <select className="select select-bordered w-full max-w-xs">
+                  <span className="label-text">Select Class</span>
+                  <select className="select select-bordered w-full">
                     <option disabled selected>
                       Who shot first?
                     </option>
-                    <option>Han Solo</option>
-                    <option>Greedo</option>
-                    <option>Greedo</option>
-                    <option>Greedo</option>
+                    <option>Body building</option>
+                    <option>Running</option>
+                    <option>Fitness</option>
+                    <option>Workout</option>
+                    <option>Meditation</option>
+                    <option>Cycling</option>
                   </select>
                 </label>
               </div>
               <div>
                 <label className="form-control w-full">
-                  <span className="label-text">What is your name?</span>
+                  <span className="label-text">Your Message</span>
                   <textarea className="textarea textarea-bordered" placeholder="Message"></textarea>
                 </label>
               </div>
