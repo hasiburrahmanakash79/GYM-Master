@@ -69,12 +69,7 @@ const Contact = () => {
                     <option disabled selected>
                       Who shot first?
                     </option>
-                    <option>Body building</option>
-                    <option>Running</option>
-                    <option>Fitness</option>
-                    <option>Workout</option>
-                    <option>Meditation</option>
-                    <option>Cycling</option>
+                    
                   </select>
                 </label>
               </div>
