@@ -75,7 +75,6 @@ const Contact = () => {
                     <option>Workout</option>
                     <option>Meditation</option>
                     <option>Cycling</option>
-                    <option>Cycling</option>
                   </select>
                 </label>
               </div>
