@@ -81,12 +81,11 @@ const Contact = () => {
               <div>
                 <label className="form-control w-full">
                   <span className="label-text">Your Message</span>
+                  <span className="label-text">Your Message</span>
+                  <span className="label-text">Your Message</span>
                   <textarea className="textarea textarea-bordered" placeholder="Message"></textarea>
                 </label>
               </div>
-              <button className="btn btn-primary">Submit</button>
-              <button className="btn btn-primary">Submit</button>
-              <button className="btn btn-primary">Submit</button>
               <button className="btn btn-primary">Submit</button>
             </div>
           </div>
