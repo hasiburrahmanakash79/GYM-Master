@@ -2,10 +2,12 @@ const Footer = () => {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content">
       <nav>
-        <header className="footer-title">Company</header>
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
+        <header className="footer-title">About</header>
+        <a className="link link-hover">When an unknown printer took galle y of tyand scrambled it to make typ nknown pret specimen.</a>
+        <a className="link link-hover">81 Kazi Haven, Awesome Villa</a>
+        <a className="link link-hover">800-123-4567</a>
+        <a className="link link-hover">gymmaster@yourname.com</a>
+        <a className="link link-hover">800-123-4567</a>
       </nav>
       <nav>
         <header className="footer-title">Services</header>
