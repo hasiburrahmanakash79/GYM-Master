@@ -13,6 +13,7 @@ const About = () => {
             <p>Lorem, ipsum.</p>
             <h1 className="text-5xl font-bold">Lorem ipsum dolor sit amet.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nihil qui sequi laboriosam cumque! Porro cupiditate esse quo ratione asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, harum voluptate expedita aliquam animi dicta ducimus? Adipisci, quaerat accusantium. Maxime?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nihil qui sequi laboriosam cumque! Porro cupiditate esse quo ratione asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, harum voluptate expedita aliquam animi dicta ducimus? Adipisci, quaerat accusantium. Maxime?</p>
             <div className="text-lg font-bold">
                 <li>Lorem, ipsum dolor.</li>
                 <li>Lorem, ipsum dolor.</li>
