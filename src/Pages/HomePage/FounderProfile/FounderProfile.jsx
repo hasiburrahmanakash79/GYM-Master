@@ -4,7 +4,6 @@ const FounderProfile = () => {
       <div className="hero-content grid grid-cols-2 gap-10">
         <div className="">
             <img src="https://i.ibb.co/FXWLZzk/founder.jpg" className="shadow-2xl" alt="" />
-            <h1 className="text-2xl p-4 w-9/12 bg-white">We can help you to overcome the fears and obstacles in your life.</h1>
         </div>
         <div className="">
           <p className="mb-3">Lets introduce</p>
