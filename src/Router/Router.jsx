@@ -6,6 +6,7 @@ import Classes from "../Pages/ClassPage/Classes";
 import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
 import PhotoGallery from "../Pages/PhotoGallery/PhotoGallery";
+import Login from "../Pages/RegistrationPage/Login/Login";
 
 const router = createBrowserRouter([
   {
@@ -38,5 +39,9 @@ const router = createBrowserRouter([
         }
     ]
   },
+  {
+    path: "/login",
+    element: <Login/>
+  }
 ]);
 export default router;
