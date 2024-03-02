@@ -54,15 +54,7 @@ const Login = () => {
           <button className="btn btn-warning">Login</button>
         </div>
       </form>
-      <div className="text-center mb-7 px-5">
-        <div className="divider"></div>
-        <p className="font-semibold">Or Sign In with</p>
-        <div className="flex items-center justify-center gap-4 my-2"></div>
-        <Link to="/signUp">
-          Do not have an account?{" "}
-          <span className="text-blue-500 font-bold">SignUp</span>{" "}
-        </Link>
-      </div>
+      
     </div>
   );
 };
