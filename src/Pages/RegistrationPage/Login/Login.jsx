@@ -1,6 +1,8 @@
+import Lottie from "lottie-react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import loginAnimation from "../../../assets/registration.json"
 
 const Login = () => {
   const [passShow, setPassShow] = useState(false);
@@ -16,11 +18,12 @@ const Login = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto grid grid-cols-2 justify-center items-center">
       <div>
-        
+        <Lottie animationData={loginAnimation}></Lottie>
       </div>
-      <div>
+      <div className="border rounded-2xl">
+        <h1 className="text-3xl text-center font-bold mt-7">Login</h1>
         <form onSubmit={handleSubmit(onSubmit)} className="card-body">
           <div className="form-control">
             <label className="label">
